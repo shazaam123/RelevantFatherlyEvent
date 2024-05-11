@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: ./payroll
+      dockerfile: Dockerfile
+    image: payroll:${TAG:-latest}
+    ports:
+      - '8000:8000'
+    environment: 
+      - DEBUG=1
+    volumes:
+      - .:/app
