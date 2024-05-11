@@ -1,6 +1,6 @@
 [tool.poetry]
-authors = ["Your Name <you@example.com>"]
-description = ""
+authors = ["Jobet Casquejo"]
+description = "this project contains some folder"
 name = "django-template"
 version = "0.1.0"
 [tool.poetry.dependencies]
